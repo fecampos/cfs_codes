@@ -11,7 +11,7 @@ mm=$(date +"%m")
 input_link="https://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs."
 
 # make folders
-path="/data/datos/COW/cow_v1/pronostico/CFS/data02/"
+path="/data/datos/COW/cow_v1/pronostico/CFS/"
 
 for hh in {06,12,18}; do
    mkdir -p $path$current_date$hh"/atmosphere/pgbf/"

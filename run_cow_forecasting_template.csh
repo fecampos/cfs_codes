@@ -50,8 +50,8 @@ set LN=/bin/ln
 set SCRATCHDIR=$cow_link_member
 #
 # Executables
-set ROMS_INPUTDIR=/data/users/cow/CROCO-OA-WRF4-CFS/croco/Run_oa_mod
-set WRF_INPUTDIR=/data/users/cow/CROCO-OA-WRF4-CFS/WRF/run
+set ROMS_INPUTDIR=/data/users/cow/CROCO-OA-WRF4/croco-v2.0.0/Run-gnu12-oa3v5_fecg
+set WRF_INPUTDIR=/data/users/cow/CROCO-OA-WRF4/WRF-gnu12-oa3v5/run
 set ROMS_CODFILE=croco
 set WRF_CODFILE=wrf.exe
 #
@@ -67,7 +67,7 @@ set WRF_MODEL=wrf
 set WRF_MSSDIR=$wrf_link_member
 #
 # OASIS Input files
-set OASIS_MSSDIR=/data/datos/COW/cow_v1/analysis/forecasting/cow/oasis_files
+set OASIS_MSSDIR=/data/users/cow/CROCO-OA-WRF4/OASIS/Run-gnu12-oa3v5-crocov2/oasis_files
 #set OASIS_RSTFILE = sstoc
 #
 # Commande specifiques a IntelMPI

@@ -16,7 +16,8 @@ export COPERNICUSMARINE_SERVICE_USERNAME=fcampos
 export COPERNICUSMARINE_SERVICE_PASSWORD=AAAbbb111@@@
 
 current_date=$(date -d "5 day ago" +'%Y-%m-%d')
-output_path="/data/datos/MERCATOR/psy4v3/data/data_v02/"
+output_path="/data/datos/COW/cow_v1/diagnostico/merator/"
+
 
 echo "Downloading data for $current_date"
 
